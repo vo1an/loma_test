@@ -5,15 +5,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import { EmailForm } from './EmailForm';
 
 function App() {
-
-    return ( <
-        div className = "App" >
-        <
-        EmailForm / >
-        <
-        /div>
-
-    );
+  
+  return (
+    <div className="App">
+     <EmailForm/>
+    </div>
+    
+  );
 }
 
 export default App;
